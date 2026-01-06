@@ -4,7 +4,8 @@ import yt_dlp
 import os
 
 # ========= CONFIG =========
-BOT_TOKEN = "8540992050:AAGmXIhb1yKXQH35c8YxGtoTGqCsfztxIk8"
+import os
+BOT_TOKEN = os.getenv = "8540992050:AAGmXIhb1yKXQH35c8YxGtoTGqCsfztxIk8"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 user_links = {}
